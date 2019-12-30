@@ -1,0 +1,17 @@
+.search {
+  margin: 2rem 0;
+}
+.search button {
+  border: none;
+  box-shadow: none;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 100;
+  background: #0f9d58;
+}
+.search input {
+  height: 15px;
+  padding: 10px;
+  margin: 10px;
+}

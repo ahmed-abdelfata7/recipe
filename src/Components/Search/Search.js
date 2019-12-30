@@ -1,9 +1,9 @@
 import React from "react";
+import "./Search.css";
 const Search = props => {
   return (
-    <div>
+    <div className="search">
       <form onSubmit={props.submitSearch}>
-        <label>Search</label>
         <input
           type="text"
           name="search"
