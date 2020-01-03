@@ -11,7 +11,7 @@
   background: #0f9d58;
 }
 .search input {
-  height: 15px;
+  height: auto;
   padding: 10px;
   margin: 10px;
 }
