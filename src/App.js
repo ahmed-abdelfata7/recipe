@@ -15,6 +15,7 @@ function App() {
     const recipes = await axios.get(
       `https://api.edamam.com/search?q=${search}&app_id=${APIconfig.APP_ID}&app_key=${APIconfig.APP_KEY}`
     );
+    console.log(recipes.data.hits);
     setRecipe(recipes.data.hits);
   };
   /**

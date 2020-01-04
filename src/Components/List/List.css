@@ -6,20 +6,35 @@ img {
   width: 100%;
 }
 .list-card {
-  border: 1px solid black;
   padding: 2rem;
+  background-color: #f39b9c;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  color: white;
 }
 .btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
   display: block;
   width: 100%;
-  height: auto;
-  text-decoration: none;
   cursor: pointer;
-  border: none;
-  box-shadow: none;
-  background-color: gray;
-  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
 }
+.list-card-content p {
+  overflow: auto;
+  height: 110px;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
 @media (min-width: 961px) {
   .list-main {
     display: grid;

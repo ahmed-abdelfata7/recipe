@@ -12,8 +12,9 @@ const List = props => {
         <div className="list-card-content">
           <h2>{element.recipe.label}</h2>
           <p>
-            Hello this is a data from displayed view again and again Hello this
-            is a data from displayed view again and again
+            {element.recipe.ingredientLines.map(element => {
+              return element;
+            })}
           </p>
           <a
             className="btn"
